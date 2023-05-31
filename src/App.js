@@ -1,6 +1,6 @@
 
 import React from 'react';
-import styles from './App.css'
+
 import Navbar from './components/NavBar';
 import NameComp from './components/NameComp';
 import SocialLinks from './components/SocialLinks';
@@ -9,6 +9,7 @@ import SideLinks from './components/SideLinks';
 import PhotoDisplay from './components/PhotoDisplay.js';
 import WhyMeSection from './components/WhyMeSection';
 import LatestWork from './components/LatestWork';
+import styles from './App.css';
 
 
 
@@ -58,7 +59,7 @@ function App() {
       </div>
       <div class="container-body">
         <SideLinks links={sideLinks} />
-        <h1>Sophakama</h1>
+        <h1 className={styles.title}>Sophakama</h1>
         <PhotoDisplay photoUrl={photoUrl} caption={caption} />
         <div>
           <WhyMeSection />
