@@ -1,0 +1,117 @@
+/* App.css */
+.container-app {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.container-header {
+  display: flex;
+  justify-content: 10px;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.container-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+/* NameComp.css */
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* NavBar.css */
+.navbar {
+  display: flex;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.navbar li {
+  font-size: 18px;
+}
+
+/* SocialLinks.css */
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* SideLinks.css */
+    .side-links {
+
+  
+
+    
+    }
+    .side-links ul{
+      list-style-type: none; /* Remove the default bullet point */
+     
+    } 
+    .side-links li {
+      display: flex;
+  flex-direction: row;
+
+
+      
+    }
+
+/* ImageNameComponent.css */
+.photo-display {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0%;
+}
+
+.photo-display img {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10%;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 0%;
+  
+}
+
+.photo-display.name {
+  writing-mode: vertical-lr;
+}
+
+/* WhyMeSection.css */
+.why-me-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* LatestWork.css */
+.latest-work {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.latest-work img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
