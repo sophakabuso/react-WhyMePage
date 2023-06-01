@@ -2,7 +2,7 @@ import React from 'react';
 
 function SideLinks({ links }) {
   return (
-    <nav class="side-links">
+    <nav className="side-links">
       <ul>
         {links.map((link, index) => (
           <li key={index}>

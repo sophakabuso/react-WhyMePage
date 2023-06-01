@@ -5,18 +5,27 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  
+  border: 40px solid  #CCCCCC;
+  padding: 20px; /* Add padding to create space between the border and the content inside */
 }
 
 .container-header {
-  display: flex;
-  justify-content: 10px;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 20px;
+  display:flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
+  font-size: small;
+  width: 100%;
+  
+
+   
 }
+
+
 
 .container-body {
   display: flex;
@@ -27,50 +36,63 @@
 
 /* NameComp.css */
 .name {
-  font-size: 24px;
+  font-size: small;
   font-weight: bold;
+ 
 }
 
 /* NavBar.css */
 .navbar {
   display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-left: 100px;
+  padding-left: 80px;
+  justify-content: 40px;
+  display: inline;
+  text-decoration: none;
 }
 
 .navbar ul {
   list-style-type: none;
   display: flex;
   gap: 10px;
+  
+  flex-direction: row;
 }
 
 .navbar li {
-  font-size: 18px;
+  font-size: small;
+   
 }
 
 /* SocialLinks.css */
 .social-links {
   display: flex;
-  justify-content: space-between;
+  padding-left: 180px;
   align-items: center;
   width: 100%;
   margin-bottom: 20px;
+  font-size: large;
+  justify-content: space-between;
 }
 
-/* SideLinks.css 
+ 
     .side-links {
 
- 
-
-    
-    }*/
+      transform: rotate(180deg);
+       align-items: bottom;
+       writing-mode: vertical-lr; 
+       margin-top: 200px;
+       justify-content: space-between;
+       
+    }
     .side-links ul{
       list-style-type: none; /* Remove the default bullet point */
-     
+       font-size: smaller;
     } 
     .side-links li {
-      display: flex;
-  flex-direction: row;
-
-
+      display: inline-flex;
       
     }
 
@@ -86,14 +108,48 @@
   height: 400px;
   object-fit: cover;
   border-radius: 10%;
-  margin-right: 10px;
+  margin-left: 0px;
   padding-bottom: 5px;
   margin-bottom: 0%;
+  border: 40px solid  #3fbae4;
   
+  border-bottom: 0;
+  border-right: 5px;
+  border-top: 5px;
+}
+.name-head{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  transform: rotate(270deg);
+  margin-top: 200px;
+  margin-right: -125px;
+  font-weight: 100px;
+  
+  
+}
+.schedule-button{
+ text-decoration: none; 
+ border: 0.5px solid  #000;
+ padding: 10px;
 }
 
 .photo-display.name {
-  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  align-items: bottom;
+  writing-mode: vertical-lr; 
+  margin-top: 200px;
+  
+}
+.photo-display p {
+  transform: rotate(270deg);
+  display: inline;
+  border:  10px solid  #3fbae4;
+  writing-mode: vertical; 
+  border-bottom: 0;
+  border-top: 0;
+  border-left: 0;
+  margin-left: 0px;
+  
 }
 
 /* WhyMeSection.css */
@@ -108,10 +164,16 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  
 }
 
 .latest-work img {
   width: 100px;
   height: 100px;
   object-fit: cover;
+  border-radius: 10%;
+  justify-content: space-between;
+}
+.view-all-button {
+  border: none;
 }

@@ -22,6 +22,8 @@ function App() {
     { label: 'Contact Me', url: 'https://sophabuso.netlify.app/contact.html' },
   ];
 
+  
+
   const socialIcons = [
     { icon: faTwitter, url: 'https://twitter.com/SophaBuso/' },
     { icon: faSlack, url: 'https://app.slack.com/client/T04M928TTMF/C04ML3U7DJLom/' },
@@ -59,7 +61,7 @@ function App() {
       </div>
       <div class="container-body">
         <SideLinks links={sideLinks} />
-        <h1 className={styles.title}>Sophakama</h1>
+        <h1 class="name-head" className={styles.title}>Sophakama</h1>
         <PhotoDisplay photoUrl={photoUrl} caption={caption} />
         <div>
           <WhyMeSection />
