@@ -1,4 +1,8 @@
 /* App.css */
+*{
+  padding: 0%;
+  margin: 0%;
+}
 .container-app {
   display: flex;
   flex-direction: column;
@@ -90,10 +94,15 @@
     .side-links ul{
       list-style-type: none; /* Remove the default bullet point */
        font-size: smaller;
+      display: inline;
     } 
+    tex-de
     .side-links li {
       display: inline-flex;
-      
+      transform:rotate(180deg);
+      writing-mode: vertical-lr;
+      align-items:bottom; 
+      height: 200px;
     }
 
 /* ImageNameComponent.css */
@@ -104,33 +113,52 @@
 }
 
 .photo-display img {
-  width: 200px;
-  height: 400px;
+  width: 270px;
+  height: 350px;
   object-fit: cover;
-  border-radius: 10%;
-  margin-left: 0px;
-  padding-bottom: 5px;
-  margin-bottom: 0%;
-  border: 40px solid  #3fbae4;
-  
   border-bottom: 0;
-  border-right: 5px;
+  border-right: 0px;
   border-top: 5px;
+  position: relative;
+  margin-left: 13%;
 }
+
+.bgImg{
+  width: 200px;
+  height: 300px;
+  margin-top: 50px;
+  object-fit: cover;
+  border-radius: 
+  50% 50% 0 0;
+  margin-left: 110px;
+  padding-bottom: 0px;
+  margin-bottom: 0%;
+  background: #3fbae4 ;
+  position: absolute;
+}
+
 .name-head{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: xx-large;
   transform: rotate(270deg);
-  margin-top: 200px;
-  margin-right: -125px;
+  margin-top: 2px;
+  margin-right: 2px;
   font-weight: 100px;
   
+  margin-top: 180px;
+ padding-left:1px ;
+ position: absolute;
   
 }
 .schedule-button{
  text-decoration: none; 
  border: 0.5px solid  #000;
  padding: 10px;
+ padding-bottom: 0%;
+ padding-top: 0px;
+ margin-top: 50%;
+
+
 }
 
 .photo-display.name {
@@ -164,6 +192,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-top:100px;
   
 }
 
