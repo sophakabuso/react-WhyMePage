@@ -5,7 +5,7 @@ const LatestWork = ({ images }) => {
 
   return (
     <div className="latest-work">
-      <h2 class="latestWorkHeading">Latest Work</h2>
+      <h2 class="latestworkheading">Latest Work</h2>
       <div className="image-gallery">
         {displayedImages.map((image, index) => (
           <img key={index} src={image} alt={``} />

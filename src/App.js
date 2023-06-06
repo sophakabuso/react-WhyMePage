@@ -63,14 +63,15 @@ function App() {
       <div className="container-body">
         <SideLinks links={sideLinks} />
         <div className="imagebgname-container">
-         <div className='bg-img'></div>
+         <div className='bgimg'></div>
          <PhotoDisplay photoUrl={photoUrl} />
          <h1 className="name-head" class={styles.title}>Sophakama</h1>
         </div> 
          
-       
+        <div className='midwordline'>
          <div className="midle-line">
          <MidleWord/>
+         </div>
          </div>
         <div className="whymelatest-container"> 
           <WhyMeSection />
