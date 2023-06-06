@@ -47,7 +47,7 @@ function App() {
   ];
 
   const photoUrl = './mypic.png';
-  const caption = 'ewe nje makubenjalo ';
+  
   
 
 
@@ -62,9 +62,10 @@ function App() {
       <div class="container-body">
         <SideLinks links={sideLinks} />
         
-        <div className='bgImg'></div>
-        <PhotoDisplay photoUrl={photoUrl} caption={caption} />
-        <h1 class="name-head" className={styles.title}>Sophakama</h1>
+         <div className='bgImg'></div>
+         <PhotoDisplay photoUrl={photoUrl} />
+         <h1 class="name-head" className={styles.title}>Sophakama</h1>
+       
         <div> 
           <WhyMeSection />
           <LatestWork images={images} />

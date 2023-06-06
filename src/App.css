@@ -87,22 +87,24 @@
       transform: rotate(180deg);
        align-items: bottom;
        writing-mode: vertical-lr; 
-       margin-top: 200px;
+       margin-top: 20px;
        justify-content: space-between;
+       padding-bottom: 25%;
        
     }
     .side-links ul{
       list-style-type: none; /* Remove the default bullet point */
-       font-size: smaller;
-      display: inline;
+       font-size:5px;
+       padding-top:0%;
+       font-family: sans-serif;
+       
+       
+      
     } 
-    tex-de
+    
     .side-links li {
       display: inline-flex;
-      transform:rotate(180deg);
-      writing-mode: vertical-lr;
-      align-items:bottom; 
-      height: 200px;
+      margin-bottom: 20px
     }
 
 /* ImageNameComponent.css */
@@ -121,16 +123,18 @@
   border-top: 5px;
   position: relative;
   margin-left: 13%;
+  padding-top: 11%;
+  padding-left: 3%;
 }
 
 .bgImg{
   width: 200px;
   height: 300px;
-  margin-top: 50px;
+  margin-top: 90px;
   object-fit: cover;
   border-radius: 
-  50% 50% 0 0;
-  margin-left: 110px;
+  60% 60% 0 0;
+  margin-left: 90px;
   padding-bottom: 0px;
   margin-bottom: 0%;
   background: #3fbae4 ;
@@ -144,8 +148,8 @@
   margin-top: 2px;
   margin-right: 2px;
   font-weight: 100px;
-  
-  margin-top: 180px;
+  text-shadow: 0px -4.5px 0px #3fbae4;
+  margin-top: 220px;
  padding-left:1px ;
  position: absolute;
   
@@ -153,10 +157,10 @@
 .schedule-button{
  text-decoration: none; 
  border: 0.5px solid  #000;
- padding: 10px;
  padding-bottom: 0%;
- padding-top: 0px;
- margin-top: 50%;
+ padding: 10px;
+ font-size: small;
+ margin-top:20px;
 
 
 }
@@ -171,12 +175,12 @@
 .photo-display p {
   transform: rotate(270deg);
   display: inline;
-  border:  10px solid  #3fbae4;
+  border:  2px solid  #3fbae4;
   writing-mode: vertical; 
   border-bottom: 0;
   border-top: 0;
   border-left: 0;
-  margin-left: 0px;
+  margin-right: 70px;
   
 }
 
@@ -187,6 +191,9 @@
   gap: 10px;
 }
 
+.why-me-section p {
+  padding-bottom: 10%;
+}
 /* LatestWork.css */
 .latest-work {
   display: flex;
@@ -205,4 +212,7 @@
 }
 .view-all-button {
   border: none;
+}
+.whyMePara{
+
 }
