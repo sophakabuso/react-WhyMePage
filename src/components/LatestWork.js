@@ -5,15 +5,16 @@ const LatestWork = ({ images }) => {
 
   return (
     <div className="latest-work">
-      <h2>Latest Work</h2>
+      <h2 class="latestWorkHeading">Latest Work</h2>
       <div className="image-gallery">
         {displayedImages.map((image, index) => (
           <img key={index} src={image} alt={``} />
         ))}
-      </div>
+
       {images.length > 3 && (
         <button className="view-all-button">View All</button>
       )}
+      </div>
     </div>
   );
 };

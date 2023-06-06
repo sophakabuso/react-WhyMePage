@@ -10,6 +10,7 @@ import PhotoDisplay from './components/PhotoDisplay.js';
 import WhyMeSection from './components/WhyMeSection';
 import LatestWork from './components/LatestWork';
 import styles from './App.css';
+import MidleWord from './components/MidleWord';
 
 
 
@@ -59,14 +60,19 @@ function App() {
         <Navbar links={navLinks} />
         <SocialLinks socialIcons={socialIcons} />
       </div>
-      <div class="container-body">
+      <div className="container-body">
         <SideLinks links={sideLinks} />
-        
-         <div className='bgImg'></div>
+        <div className="imagebgname-container">
+         <div className='bg-img'></div>
          <PhotoDisplay photoUrl={photoUrl} />
-         <h1 class="name-head" className={styles.title}>Sophakama</h1>
+         <h1 className="name-head" class={styles.title}>Sophakama</h1>
+        </div> 
+         
        
-        <div> 
+         <div className="midle-line">
+         <MidleWord/>
+         </div>
+        <div className="whymelatest-container"> 
           <WhyMeSection />
           <LatestWork images={images} />
         </div>
