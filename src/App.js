@@ -60,12 +60,16 @@ function App() {
         <Navbar links={navLinks} />
         <SocialLinks socialIcons={socialIcons} />
       </div>
+
       <div className="container-body">
         <SideLinks links={sideLinks} />
         <div className="imagebgname-container">
-         <div className='bgimg'></div>
-         <PhotoDisplay photoUrl={photoUrl} />
-         <h1 className="name-head" class={styles.title}>Sophakama</h1>
+         <div className='bgimg'>
+          <h1 className="name-head" class={styles.title}>Sophakama</h1>
+          <PhotoDisplay photoUrl={photoUrl} />
+         </div>
+         
+         
         </div> 
          
         <div className='midwordline'>

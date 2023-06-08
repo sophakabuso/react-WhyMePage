@@ -112,7 +112,7 @@ a {
 
     .imagebgname-container{
        margin-right: 200px;
-      margin-top: -80px;
+      margin-top: 80px;
     }
 
 
@@ -121,21 +121,21 @@ a {
   height: 536px;
   object-fit: cover;
   position: relative;
+  margin-top: -128px;
+  
   
 
 }
 
 .bgimg{
-  width: 250px;
+  width: 260px;
   height: 408px;
-  padding-left:10px;
-  object-fit: cover;
   border-radius: 
   38% 38% 0 0;
-  
+  margin-top: 100px;
   background: #3fbae4 ;
-  position: absolute;
-  margin-top: 13%;
+  display: inline-flex;
+  margin-top: 0%;
 }
 
 
@@ -143,15 +143,14 @@ a {
 
 
 .name-head{
-  height: px;
+  z-index: 1;
+  
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
+  font-size: 48px;
   transform: rotate(270deg);
-  margin-left: -100px;
-  margin-top: -250px;
   font-weight: 100px;
   text-shadow: 0px -4.5px 0px #3fbae4;
-
+margin: 150px 0px 10px -155px;
  position: absolute;
   
 }
@@ -215,13 +214,19 @@ width:50%;
 
 .latest-work img {
   display:inline-flex;
-  width: 120px;
+  width: 250px;
   height: 100px;
   object-fit: cover;
   border-radius: 10%;
   justify-content: space-between;
   margin: 24px 20px 2px 0;
   flex-direction: row;
+  
+}
+
+.image-gallery{
+ position:relative;
+  overflow: hidden;
 }
 .view-all-button {
   border: none;
