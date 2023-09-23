@@ -41,10 +41,10 @@ function App() {
 
   ];
   const images = [
-    './app1.png',
-    './ressume.png',
-    './Tutankhamun.jpg',
-    './inner.jpg'
+    './todolistfull.png',
+   
+    './countrysearch.png',
+    './weatherstatus.png'
   ];
 
   const photoUrl = './mypic.png';
